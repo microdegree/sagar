@@ -51,7 +51,7 @@ export default class ShowDonors extends Component {
                         </th>
                         <th>
                           {" "}
-                          <label class="text-dark">Department</label>
+                          <label class="text-dark">Caregory</label>
                         </th>
                         <th>
                           {" "}

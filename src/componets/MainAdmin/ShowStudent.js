@@ -9,7 +9,7 @@ export default class ShowStudent extends Component {
         <div id="portfolio">
           <div class="container showtop  login-second ">
             <div class="page-title text-center">
-              <h1 class="text-dark">List Of Students</h1>
+              <h1 class="text-dark">List Of Freelancers</h1>
 
               <hr class="pg-titl-bdr-btm" />
             </div>
@@ -29,7 +29,7 @@ export default class ShowStudent extends Component {
                             href="/farmer/addItems"
                             class="btn btn-info btn-sm p-2"
                           >
-                            Add Students
+                            Add Freelancers
                           </a>
                         </div>
                       </div>
@@ -47,11 +47,11 @@ export default class ShowStudent extends Component {
                         </th>
                         <th>
                           {" "}
-                          <label class="text-dark">Student Name</label>
+                          <label class="text-dark">Freelancers Name</label>
                         </th>
                         <th>
                           {" "}
-                          <label class="text-dark">Department</label>
+                          <label class="text-dark">Category</label>
                         </th>
                         <th>
                           {" "}

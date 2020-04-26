@@ -9,84 +9,124 @@ class Registration extends Component {
 
   render() {
     return (
-      <div className="container mt-5 mtop ">
-        <div className="">
-          {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
-          <div className="" id="login-second">
-            <div class="page-wrapper p-t-50 p-b-50">
-              <div class="wrapper wrapper--w900">
-                <div class="card cardH card-6 ">
-                  <div class="card-heading">
-                    <h2 class="title text-dark ">&nbsp;&nbsp;&nbsp;&nbsp;Registration</h2>
+      <div className="container ">
+      <div className="">
+        {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
+        <div className="jumbotron " id="login-second">
+          <div className="container">
+            <div className="d-flex justify-content-center">
+              <div className="card" id="login-card">
+                <div className="card-header">
+                  <h3 className="mt-5 sign">Freelancer Registration</h3>
+                </div>
+                <div className="card-body">
+                  <form>
+                   
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span
+                          className="input-group-text"
+                          style={{ background: "#ffc312" }}
+                        >
+                          <i className="fa fa-user"></i>
+                        </span>
+                      </div>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="usernaame"
+                      />
+                    </div>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span
+                          className="input-group-text"
+                          style={{ background: "#ffc312" }}
+                        >
+                          <i className="fa fa-map-marker"></i>
+                        </span>
+                      </div>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Address"
+                      />
+                    </div>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span
+                          className="input-group-text"
+                          style={{ background: "#ffc312" }}
+                        >
+                          <i className="fa fa-user"></i>
+                        </span>
+                      </div>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Experience"
+                      />
+                    </div>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span
+                          className="input-group-text"
+                          style={{ background: "#ffc312" }}
+                        >
+                          <i className="fa fa-envelope"></i>
+                        </span>
+                      </div>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="email"
+                      />
+                    </div>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span
+                          className="input-group-text"
+                          style={{ background: "#ffc312" }}
+                        >
+                          <i className="fa fa-key"></i>
+                        </span>
+                      </div>
+                      <input
+                        type="password"
+                        className="form-control"
+                        placeholder="password"
+                      />
+                    </div>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span
+                          className="input-group-text"
+                          style={{ background: "#ffc312" }}
+                        >
+                          <i className="fa fa-key"></i>
+                        </span>
+                      </div>
+                      <input
+                        type="password"
+                        className="form-control"
+                        placeholder="Re-enter password"
+                      />
+                    </div>
+                    <div className="form-group">
+                      <input
+                        type="submit"
+                        value="Register"
+                        className="btn float-right login_btn btn-warning btn-block"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div className="">
+                  <div className="d-flex justify-content-center links">
+                    Already have an account?<a href="/Login/vendor">Sign In</a>
                   </div>
-                  <div class="card-body  text-light">
-                    <form method="POST">
-                      <div class="form-row">
-                        <div class="name">Company name</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Company Location</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Email address</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder="example@email.com"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Password</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Re-Password</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                  
-                    </form>
-                  </div>
-                  <div class="card-footer">
-                    <button class="btn btn--radius-2 btn-success" type="submit">
-                      Submit
-                    </button>
+                  <div className="d-flex justify-content-center">
+                    <a href="/reset">Forgot your password?</a>
                   </div>
                 </div>
               </div>
@@ -94,6 +134,7 @@ class Registration extends Component {
           </div>
         </div>
       </div>
+    </div>
     );
   }
 }

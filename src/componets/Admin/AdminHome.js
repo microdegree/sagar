@@ -39,9 +39,11 @@ class AdminHome extends Component {
                 />
         <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+        <h3 className="text-dark1">Project Title</h3>
+      
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -78,9 +80,11 @@ class AdminHome extends Component {
                 />
                  <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+                 <h3 className="text-dark1">Project Title</h3>
+
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -116,9 +120,11 @@ class AdminHome extends Component {
                 />
                  <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+                 <h3 className="text-dark1">Project Title</h3>
+
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -152,9 +158,11 @@ class AdminHome extends Component {
                 />
                  <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+                 <h3 className="text-dark1">Project Title</h3>
+       
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -188,46 +196,11 @@ class AdminHome extends Component {
                 />
                  <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
-             </div>
-                <div className="overlay">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Quick Shop"
-                    data-toggle="modal"
-                    data-target="#quickModel"
-                  >
-                    <i className="fa fa-eye"></i>
-                  </button>
-
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Add to Cart"
-                  >
-                    <i className="fa fa-shopping-cart"></i>
-                  </button>
-                </div>
-              </div>
-     
-            </div>
-
-
-            <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
-              <div className="product-top">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                  className="img1"
-                  alt=""
-                />
-                 <div className="product-bottom text-center">
-               
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+                 <h3 className="text-dark1">Project Title</h3>
+    
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -262,45 +235,11 @@ class AdminHome extends Component {
                 />
                  <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
-             </div>
-                <div className="overlay">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Quick Shop"
-                    data-toggle="modal"
-                    data-target="#quickModel"
-                  >
-                    <i className="fa fa-eye"></i>
-                  </button>
-
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    title="Add to Cart"
-                  >
-                    <i className="fa fa-shopping-cart"></i>
-                  </button>
-                </div>
-              </div>
-     
-            </div>
-
-            <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
-              <div className="product-top">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                  className="img1"
-                  alt=""
-                />
-                 <div className="product-bottom text-center">
-               
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+                 <h3 className="text-dark1">Project Title</h3>
+    
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -335,9 +274,88 @@ class AdminHome extends Component {
                 />
                  <div className="product-bottom text-center">
                
-               <h3 className="text-dark">Project Title</h3>
-               <h3 className="text-dark">Institition</h3>
-               <h4 className="text-dark">Price:$1000</h4>
+                 <h3 className="text-dark1">Project Title</h3>
+       
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
+             </div>
+                <div className="overlay">
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    title="Quick Shop"
+                    data-toggle="modal"
+                    data-target="#quickModel"
+                  >
+                    <i className="fa fa-eye"></i>
+                  </button>
+
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    title="Add to Cart"
+                  >
+                    <i className="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+     
+            </div>
+
+            <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
+              <div className="product-top">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
+                  className="img1"
+                  alt=""
+                />
+                 <div className="product-bottom text-center">
+               
+                 <h3 className="text-dark1">Project Title</h3>
+      
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
+             </div>
+                <div className="overlay">
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    title="Quick Shop"
+                    data-toggle="modal"
+                    data-target="#quickModel"
+                  >
+                    <i className="fa fa-eye"></i>
+                  </button>
+
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    title="Add to Cart"
+                  >
+                    <i className="fa fa-shopping-cart"></i>
+                  </button>
+                </div>
+              </div>
+     
+            </div>
+
+
+            <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
+              <div className="product-top">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
+                  className="img1"
+                  alt=""
+                />
+                 <div className="product-bottom text-center">
+               
+                 <h3 className="text-dark1">Project Title</h3>
+
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
+               <h4 className="text-dark1">Price:$1000</h4>
              </div>
                 <div className="overlay">
                   <button
@@ -388,7 +406,9 @@ class AdminHome extends Component {
                <p className="text-dark1">Flood Prevention for County Courthouse
 
 The county courthouse is a historic building that is located in the oldest town in the state. Over the past few years several "localized" floods have occurred in the two-block region surrounding the courthouse. These floods develop as a result of rainfall events that are at or near the yearly maximum. The floodwaters have flowed both into the historic courthouse (photos were provided) and the adjoining annex, bordering the parking lot to the east of the courthouse. The floods originate in the vicinity of the parking lot and flow south and west into the courthouse complex, exiting onto the downhill streets adjacent to the courthouse (photos were provided).</p>
-               <h3 className="text-dark1">Institition</h3>
+
+               <h3 className="text-dark1">Project Category</h3>
+               <h3 className="text-dark1">Project TimeLine</h3>
                <h4 className="text-dark1">Price:$1000</h4>
              
              </div>

@@ -243,10 +243,10 @@ export default class Navbar extends Component {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a className="dropdown-item" href="/Login/user">
-                   Student Login
+                   Company Login
                   </a>
                   <a className="dropdown-item" href="/Login/vendor">
-                    Company Login
+                    Freelancers Login
                   </a>
                   <a className="dropdown-item" href="/Login/admin">
                     Admin Login

@@ -13,10 +13,55 @@ class Registration extends Component {
               <div className="d-flex justify-content-center">
                 <div className="card" id="login-card">
                   <div className="card-header">
-                    <h3 className="mt-5 sign">Sign Up As User</h3>
+                    <h3 className="mt-5 sign">Company Registration</h3>
                   </div>
                   <div className="card-body">
                     <form>
+                    <div className="input-group form-group">
+                        <div className="input-group-prepend">
+                          <span
+                            className="input-group-text"
+                            style={{ background: "#ffc312" }}
+                          >
+                            <i className="fa fa-envelope"></i>
+                          </span>
+                        </div>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Company Name"
+                        />
+                      </div>
+                      <div className="input-group form-group">
+                        <div className="input-group-prepend">
+                          <span
+                            className="input-group-text"
+                            style={{ background: "#ffc312" }}
+                          >
+                            <i className="fa fa-envelope"></i>
+                          </span>
+                        </div>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Address"
+                        />
+                      </div>
+                      <div className="input-group form-group">
+                        <div className="input-group-prepend">
+                          <span
+                            className="input-group-text"
+                            style={{ background: "#ffc312" }}
+                          >
+                            <i className="fa fa-envelope"></i>
+                          </span>
+                        </div>
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Manager Name"
+                        />
+                      </div>
                       <div className="input-group form-group">
                         <div className="input-group-prepend">
                           <span
@@ -32,21 +77,7 @@ class Registration extends Component {
                           placeholder="email"
                         />
                       </div>
-                      <div className="input-group form-group">
-                        <div className="input-group-prepend">
-                          <span
-                            className="input-group-text"
-                            style={{ background: "#ffc312" }}
-                          >
-                            <i className="fa fa-user"></i>
-                          </span>
-                        </div>
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="username"
-                        />
-                      </div>
+       
                       <div className="input-group form-group">
                         <div className="input-group-prepend">
                           <span

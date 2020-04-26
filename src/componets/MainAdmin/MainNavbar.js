@@ -125,18 +125,18 @@ export default class Navbar extends Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link " href="/user/Home">
+                <a className="nav-link " href="/main/Home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link " href="/main/ShowCompany">
-                List Of Companies
+               Companies
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link " href="/main/ShowStudent">
-                  List Of students
+                Freelancers
                 </a>
               </li>
             

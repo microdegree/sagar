@@ -12,7 +12,7 @@ export default class addDonors extends Component {
               <div class="wrapper wrapper--w900 ">
                 <div class="card cardH card-6 ">
                   <div class="card-heading m-4">
-                    <h2 class="title text-dark">Add Projects</h2>
+                    <h2 class="title text-dark1">Add Projects</h2>
                   </div>
                   <div class="card-body">
                     <form method="POST">
@@ -61,7 +61,7 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Department</div>
+                        <div class="name">Project Timeline</div>
                         <div class="value">
                           <div class="input-group">
                             <input
@@ -97,7 +97,7 @@ export default class addDonors extends Component {
                     
                   
                       <div class="form-row frow">
-                        <div class="name">Team</div>
+                        <div class="name">Manager Name</div>
                         <div class="value">
                           <div class="input-group">
                             <input
@@ -110,7 +110,7 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Duration</div>
+                        <div class="name">Manager Contact</div>
                         <div class="value">
                           <div class="input-group">
                             <input
@@ -123,7 +123,7 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Guide</div>
+                        <div class="name">Project Category</div>
                         <div class="value">
                           <div class="input-group">
                             <input
@@ -136,7 +136,7 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Institution</div>
+                        <div class="name">Project Technology</div>
                         <div class="value">
                           <div class="input-group">
                             <input
@@ -148,19 +148,7 @@ export default class addDonors extends Component {
                           </div>
                         </div>
                       </div>
-                      <div class="form-row frow">
-                        <div class="name">Phone Number</div>
-                        <div class="value">
-                          <div class="input-group">
-                            <input
-                              class="input--style-6"
-                              type="email"
-                              name="email"
-                              placeholder=""
-                            />
-                          </div>
-                        </div>
-                      </div>
+                      
                       <div class="form-row frow">
                         <div class="name">Price</div>
                         <div class="value">

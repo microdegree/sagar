@@ -11,19 +11,13 @@ class Home extends Component {
 <div class="banner">
   <div>
   <section id="section1" className="" style={{ marginTop: 80 + "px" }}>
-          <div className="leftside">
-            
-            <img
-              src="https://www.graphicsprings.com/filestorage/stencils/a2c41077a3b7dbc6da8c03ffaf1daa43.png?width=500&height=500"
-              alt=""
-            />
-          </div>
+
           
           <div className="rightside rollIn animated wow animated">
             <div className="container ">
            
-            <h4> Welcome To Our Studio!</h4>
-              <h1>IT'S NICE TO MEET YOU</h1>
+            <h4 className="text-dark1"> Welcome To Our Studio!</h4>
+              <h1 className="text-dark1">Connecting Freelancer With Project</h1>
            
               <a href="/Home#product" className="btn btn-success welcome">
               Tell Me More
@@ -31,7 +25,13 @@ class Home extends Component {
              
             </div>
           </div>
-       
+          <div className="leftside">
+            
+            <img
+              src="https://www.moneycrashers.com/wp-content/uploads/2019/02/become-freelancer-types-work.jpg"
+              alt=""
+            />
+          </div>
         </section>
   </div>
 
